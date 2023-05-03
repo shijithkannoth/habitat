@@ -27,10 +27,6 @@ npm install
 ```
 npm run wdio
 
-
-
-npm run wdio -- --cucumberOpts.tagExpression='@links' 
-
 ```
 #### to execute specific test case using the tags
 
@@ -46,6 +42,12 @@ allure serve (Report Directory)
 {allure serve allure-results/}
 
 ```
+
+
+### Future Implementation
+
+1. Integration with CI/CD {Jenkins, GitlabRunner etc}
+2. Implement Code quality and coverage using SonarQube/Sonar Lint
 
 
 
