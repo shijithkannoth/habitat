@@ -12,3 +12,7 @@ const config = {
 After(async () => {
     await browser.deleteCookies()
 })
+
+AfterStep(async () => {
+    browser.takeScreenshot()
+})
